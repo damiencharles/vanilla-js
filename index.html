@@ -1,0 +1,41 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BREAKING DONUTS</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+   
+    <section id="BKGD">
+
+        <div id="loading">
+            <div id="startForm">
+                <p style="text-align: center;">Entrez Votre Pseudo </p>
+                <input type="text" id="name" required>
+                <br>
+                <p>Choisissez votre joueur</p>
+                <select name="players" id="choose">
+                    <option value="Walter">Walter white</option>
+                    <option value="Pinkman">Jessy Pinkman</option>
+                </select>
+                <br>
+                <div style="margin-top: 10%;">
+                    <button id="BTN">Commencer le jeu !</button>
+                </div>
+            </div>
+        </div>
+        <div id="playerPseudo"></div>
+
+        <audio id="audioPlayer" src="./assets/audio/ishotya.mp3"></audio>
+
+    </section>
+
+    <div id="endGame"></div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
